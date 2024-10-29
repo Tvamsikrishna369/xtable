@@ -34,7 +34,6 @@ function App() {
       const dateB = new Date(b.date);
       if(dateB < dateA) return -1;
       if(dateB > dateA) return 1;
-
       return 0;
     });
     SetData (sortedData);
